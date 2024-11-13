@@ -47,6 +47,7 @@
             Let's Talk
           </button>
         </div>
+      
         <SwitchGroup as="div" class="flex gap-x-4 sm:col-span-2">
           <div class="flex h-6 items-center">
             <Switch v-model="agreed" :class="[agreed ? 'bg-sky-700' : 'bg-gray-200', 'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600']">
@@ -56,21 +57,20 @@
           </div>
           <SwitchLabel class="text-sm text-gray-600">
             By selecting this, you agree to our
-            {{ ' ' }}
-            <a href="#" class="font-semibold text-sky-700">privacy&nbsp;policy</a>.
+            <a href="#" class="font-semibold text-sky-700">privacy policy</a>.
           </SwitchLabel>
         </SwitchGroup>
       </form>
     </div>
+ 
     <div class="image-container md:w-1/2 w-full h-full flex justify-center items-center">
-      <img  src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover" />
+      <img src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover" />
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
-import { Switch, SwitchGroup, SwitchLabel } from '@headlessui/vue';
 
 const agreed = ref(false);
 const formData = ref({
@@ -81,7 +81,7 @@ const formData = ref({
 
 const submitForm = () => {
   console.log('Form submitted:', formData.value);
-  // Reset the form
+ 
   formData.value = {
     name: '',
     email: '',
@@ -91,5 +91,5 @@ const submitForm = () => {
 </script>
 
 <style scoped>
-/* Optional custom styles can be added here */
+
 </style>

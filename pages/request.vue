@@ -1,0 +1,4 @@
+<template>
+    <Req/>
+    <Whatsapp/>
+</template>
