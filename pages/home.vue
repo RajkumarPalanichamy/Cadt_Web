@@ -1,7 +1,10 @@
 <template>
-    <Header/>
+    <Header />
     <Home/>
-    <Setup/>
-    
-    <Footer/>
+    <Whyhome/>
+    <Testmonial/>
+    <Call/>
+    <Contact/>
+    <Whatsapp/>
+    <Footer />
 </template>

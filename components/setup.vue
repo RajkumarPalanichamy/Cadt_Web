@@ -1,4 +1,4 @@
-<template>
+ <!-- <template>
     <div class="container mx-auto p-4 mt-4">
       <h1 class="text-3xl font-bold mb-4 text-sky-900 items-center flex justify-center">Setup</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -55,4 +55,46 @@
     max-width: 1200px;
   }
   </style>
+   
+  <!-- <template>
+    <TresCanvas :shadow="true" :antialias="true">
+   
+      <PerspectiveCamera :position="[0, 2, 5]" :fov="75" :near="0.1" :far="1000" makeDefault />
+      
+     
+      <AmbientLight :intensity="0.5" />
+      <DirectionalLight :position="[5, 10, 7.5]" :intensity="1" />
+ 
+      <Suspense>
+        <template #default>
+          <GltfLoader src="../public/sea_keep_lonely_watcher/scene.gltf"/>
+        </template>
+        <template #fallback>
+          <mesh>
+            <boxGeometry />
+            <meshBasicMaterial color="gray" />
+          </mesh>
+        </template>
+      </Suspense>
   
+  
+      <OrbitControls />
+    </TresCanvas>
+  </template>
+  
+  <script>
+  export default {
+    name: 'GLTFLoaderScene',
+  };
+  </script>
+  
+  <style>
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+  </style> 
+  
+   -->
+  <template><div></div>
+    </template>

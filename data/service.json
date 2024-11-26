@@ -1,33 +1,34 @@
-[
-    { 
-      "image": "kit1.jpg", 
-      "title": "3D Kitchen Design", 
-      "description": "Design your dream kitchen with customized layouts and innovative features. Our 3D services create a space that’s both beautiful and highly functional."
+{
+  "expertiseList": [
+    {
+      "title": "Kitchen Designer",
+      "description": "Designing functional and aesthetically pleasing kitchen spaces, we incorporate modern appliances and  materials while optimizing layout for workflow.",
+      "image": "kitchen.jpg"
     },
-    { 
-      "image": "kitchen.jpg", 
-      "title": "Living Room Design", 
-      "description": "Craft a living room that warmly welcomes family and friends. Our designs capture your unique style, blending comfort. Enjoy a space that feels like home."
+    {
+      "title": "Room Creator",
+      "description": "Transforming ordinary spaces into extraordinary rooms, we create tailored designs that blend style and practicality, ensuring maximum space utilization.",
+      "image": "rom.jpg"
     },
-    { 
-      "image": "bedroom.jpg", 
-      "title": "Bedroom Design", 
-      "description": "Transform your bedroom into a peaceful retreat with our 3D design services. We prioritize comfort and relaxation, with a look tailored to your taste."
+    {
+      "title": "Interior Designer",
+      "description": "Crafting beautiful, cohesive interiors that reflect your personality, we emphasize eco-friendly materials and cutting-edge design trends.",
+      "image": "int.jpg"
     },
-    { 
-      "image": "child.jpg", 
-      "title": "Children’s Room Design", 
-      "description": "Create a room that’s safe, playful, and perfect for your child’s needs. Our designs inspire imagination and growth, blending practicality with creativity. A space for learning, play, and rest."
+    {
+      "title": "Product Showcase Studio",
+      "description": "Providing innovative spaces for product displays, we combine lighting, layouts, and interactive elements to create an impactful showcase.",
+      "image": "stu.jpg"
     },
-    { 
-      "image": "bathroom.png", 
-      "title": "Bathroom Design", 
-      "description": "Experience spa-like luxury in your own bathroom with custom designs. Our 3D services focus on aesthetics and functionality, creating a calming space. Enjoy a bathroom that’s as beautiful as it is practical."
+    {
+      "title": "Material Planner",
+      "description": "Assisting in the selection of cost-effective and sustainable materials, we ensure efficient planning, procurement, and minimal waste.",
+      "image": "pl.jpg"
     },
-    { 
-      "image": "custom.jpg", 
-      "title": "Custom Room Design", 
-      "description": "From home offices to dining rooms, we design any space to suit your lifestyle. Every detail is customized to your preferences, ensuring it’s both functional and stylish. Create a room that’s uniquely yours."
+    {
+      "title": "Smart Space Optimizer",
+      "description": "Optimizing living and working spaces, we focus on multi-functional designs, smart storage solutions, and cutting-edge automation.",
+      "image": "sm.jpg"
     }
   ]
-  
+}

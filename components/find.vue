@@ -6,8 +6,8 @@
         <div>
             <h1 class="mt-1 text-4xl font-bold leading-8 tracking-tight text-sky-900 sm:text-3xl pt-6 px-5 mb-10">Find us here</h1>
             <div class="flex items-center justify-center gap-4 text-center mb-5 px-10">
-                <span class="text-4xl text-sky-900"><i class="mdi mdi-map-marker"></i></span>
-                <p class="text-black font-semibold text-lg">3rd Floor, SPAN Ventures SEZ, Block A2, Eachanari, Tamil Nadu 641021</p>
+                <span class="text-4xl text-sky-900 "><i class="mdi mdi-map-marker"></i></span>
+                <p class="text-black font-semibold text-lg  pt-2">3rd Floor, SPAN Ventures SEZ, Block A2, Eachanari, Tamil Nadu 641021</p>
             </div>
             <div class="flex items-start gap-4 text-center mb-5 px-10">
                 <span class="text-4xl text-sky-900"><i class="mdi mdi-email"></i></span>

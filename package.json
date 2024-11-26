@@ -14,9 +14,17 @@
     "@heroicons/vue": "^1.0.6",
     "@mdi/font": "^7.4.47",
     "@mdi/js": "^7.4.47",
+    "@nuxtjs/dotenv": "^1.4.2",
     "@nuxtjs/tailwindcss": "^6.12.2",
+    "@tresjs/cientos": "^4.0.3",
+    "@tresjs/core": "^4.3.1",
+    "@tresjs/nuxt": "^3.0.7",
+    "@tresjs/post-processing": "^0.7.1",
+    "animate.css": "^4.1.1",
+    "nodemailer": "^6.9.16",
     "nuxt": "^3.13.2",
     "nuxt-mdi": "^2.1.1",
+    "three": "^0.170.0",
     "vue": "latest",
     "vue-router": "latest"
   }

@@ -43,10 +43,10 @@
 import { computed } from 'vue'
 import { useRoute } from 'nuxt/app'
 
-// Get the current route
+
 const route = useRoute()
 
-// Compute the breadcrumb title based on route path
+
 const breadcrumbTitle = computed(() => {
   if (route.path === '/setup') {
     return 'Create, Configure, Innovate'
@@ -54,11 +54,15 @@ const breadcrumbTitle = computed(() => {
     return 'Contact Us'
   } else if (route.path === '/service') {
     return 'Our Services'
+  } else if (route.path === '/industry'){
+    return 'Industries'
+  } else if (route.path === '/solution'){
+    return 'solutions'
   }
-  return 'Home'
+    return 'Home'
 })
 
-// Compute the breadcrumb inside text
+
 const breadinside = computed(() => {
   if (route.path === '/setup') {
     return 'Setup'
@@ -66,11 +70,16 @@ const breadinside = computed(() => {
     return 'Contact Us'
   } else if (route.path === '/service') {
     return 'Services'
+  } else if  (route.path === '/industry'){
+    return 'Industries'
   }
-  return 'Home'
+    else if (route.path === '/solution'){
+    return 'solutions'
+  }
+    return 'Home'
 })
 
-// Compute the breadcrumb path
+
 const breadcrumbPath = computed(() => {
   if (route.path === '/setup') {
     return '/setup'
@@ -78,6 +87,11 @@ const breadcrumbPath = computed(() => {
     return '/contact'
   } else if (route.path === '/service') {
     return '/service'
+  } else if  (route.path === '/industry'){
+    return 'Industries'
+  }
+    else if (route.path === '/solution'){
+    return 'solutions'
   }
   return '/home'
 })

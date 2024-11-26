@@ -18,35 +18,54 @@
         <div class="mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
          
           <div class="browser text-center md:text-left">
-            <h1 class="font-bold text-2xl mb-2 text-sky-700">Browse by</h1>
-            <ul class="space-y-1">
-              <li>Product</li>
-              <li>Categories</li>
-              <li>Sales</li>
+            <h1 class="font-bold text-2xl mb-3 text-sky-900">Industries</h1>
+            <ul class="space-y-3">
+              <li><NuxtLink to="/industry">Furniture manufacturing</NuxtLink></li>
+              <li><NuxtLink to="/industry">Interior design</NuxtLink></li>
+              <li><NuxtLink to="/industry">Education & Training</NuxtLink></li>
+              <li><NuxtLink to="/industry">Exhibition & event design</NuxtLink></li>
+              <li><NuxtLink to="/industry">Co-working Spaces</NuxtLink></li>
+           
             </ul>
           </div>
 
          
           <div class="quick text-center md:text-left">
-            <h1 class="font-bold text-2xl mb-2 text-sky-700">Quick Links</h1>
-            <ul class="space-y-1">
-              <li><NuxtLink to="/home">Home</NuxtLink></li>
+            <h1 class="font-bold text-2xl mb-3 text-sky-900">Quick Links</h1>
+            <ul class="space-y-3">
+              <li><NuxtLink to="/">Home</NuxtLink></li>
               <li><NuxtLink to="/about">About Us</NuxtLink></li>
-              <li><NuxtLink to="/setup">Setup</NuxtLink></li>
+              <li><NuxtLink to="/industry">Industries</NuxtLink></li>
+              <li><NuxtLink to="/solution">Solutions</NuxtLink></li>
               <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
             </ul>
           </div>
 
          
-          <div class="order text-center md:text-left">
-            <h1 class="font-bold text-2xl mb-2 text-sky-700">Order Info</h1>
-            <ul class="space-y-1">
-              <li>Order Status</li>
-              <li>Payments</li>
-              <li>Shipping</li>
-              <li>Returns</li>
-              <li>Order History</li>
-            </ul>
+          <div class="flex flex-col  "  >
+            <h1 class="text-4xl font-bold leading-8 tracking-tight text-sky-900 sm:text-2xl mb-6">
+              Find us here
+            </h1>
+            <div class="flex flex-row space-x-6 items-start">
+              <div class="flex flex-col space-y-6">
+                <span class="text-2xl text-sky-900">
+                  <i class="mdi mdi-map-marker"></i>
+                </span>
+                <span class="text-2xl text-sky-900 pt-2">
+                  <i class="mdi mdi-email"></i>
+                </span>
+                <span class="text-2xl text-sky-900">
+                  <i class="mdi mdi-phone"></i>
+                </span>
+              </div>
+              <div class="flex flex-col space-y-6">
+                <p class="w-64">
+                  3rd Floor, SPAN Ventures SEZ, Block A2, Eachanari, Tamil Nadu 641021
+                </p>
+                <p>info@example.com</p>
+                <p>(123) 456-7890</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

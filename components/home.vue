@@ -119,7 +119,7 @@
     </button>               
   </div>
 
-  <!-- About Section -->
+ 
   <section class="about-section flex flex-col md:flex-row  mx-auto  max-w-6xl my-10 justify-between">
      
      <div class="company-image-container  w-full p-4 flex  pr-10">
@@ -135,6 +135,9 @@
       <p class="text-lg font-semibold text-gray-700 leading-relaxed">
         We are a leading international software company with more than 32 years of experience supplying complete software solutions for the interior design and production business, specialized in bespoke furniture.Whether you are a cabinet maker, shopfitter or an exhibition booth builder, individual design requires individual solutions.
       </p>
+      <div class="mt-5">
+      <NuxtLink to="/about" class="bg-sky-900 p-2 w-32 px-2 rounded-md text-base text-white">More info</NuxtLink>
+      </div>
        <!-- <p class="mt-4 text-lg text-gray-700 leading-relaxed">
          We believe in continuous improvement and innovation, which is why we invest in cutting-edge technology and sustainable practices. Our commitment to excellence has earned us a loyal customer base and numerous industry accolades. Join us on our journey as we continue to make a positive impact in our community and beyond.
        </p> -->
@@ -143,6 +146,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {

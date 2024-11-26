@@ -1,15 +1,16 @@
 <template>
+
   <div class="bg-white pb-16">
     <header class="absolute inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <NuxtLink :to="{ name: 'index' }" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
+          <NuxtLink to="/" class="-m-1.5 p-1.5" @click="reload">
+           
             <img class="h-8 w-auto" src="@/assets/logo.png" alt="Your Company Logo" />
           </NuxtLink>
         </div>
 
-        <!-- Mobile menu button -->
+       
         <div class="flex lg:hidden">
           <button
             type="button"
@@ -26,7 +27,7 @@
           </button>
         </div>
 
-        <!-- Desktop navigation -->
+     
         <div class="hidden lg:flex lg:gap-x-10">
           <NuxtLink
             v-for="item in navigation"
@@ -40,11 +41,7 @@
 
         
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <NuxtLink to="/contact" class="text-lg font-semibold text-gray-900 hover:text-gray-700">
-            <button class="p-2 bg-sky-900 text-white rounded-md hover:shadow-md hover:bg-slate-100 hover:font-bold hover:text-sky-700">
-              Get Consultation
-            </button>
-          </NuxtLink>
+          <NuxtLink to="/contact" class="px-4 py-3 bg-sky-700 text-white text-base rounded-md">Get Consultation</NuxtLink>
         </div>
       </nav>
 
@@ -80,9 +77,7 @@
             </NuxtLink>
           </div>
           <div class="mt-6">
-            <NuxtLink to="/contact" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" @click="closeMobileMenu">
-              Get Consultation
-            </NuxtLink>
+            <NuxtLink to="/contact"  class="inline-flex items-center rounded-md border border-transparent bg-sky-900 px-4 py-3 text-sm font-medium leading-4 text-white shadow-sm hover:bg-white hover:text-sky-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Grt consultations</NuxtLink>
           </div>
         </DialogPanel>
       </Dialog>
@@ -91,8 +86,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+
 import { mdiMenu, mdiClose } from '@mdi/js';
 import { Dialog, DialogPanel } from '@headlessui/vue';
 
@@ -100,11 +94,14 @@ const router = useRouter();
 const mobileMenuOpen = ref(false);
 
 const navigation = [
-  { name: 'Home', href:{ name: 'index' } },
-  { name: 'About Us', href:'about'},
-  { name: 'Services', href: { name: 'service' } },
+ 
+  { name: 'About Us', href: { name: 'about' } },
+  { name: 'Industries', href: { name: 'industry' } },
+  { name: 'Solutions', href: { name: 'solution' } },
+ 
   { name: 'Contact', href: { name: 'contact' } }
 ];
+
 
 function toggleMobileMenu() {
   mobileMenuOpen.value = !mobileMenuOpen.value;
@@ -112,6 +109,14 @@ function toggleMobileMenu() {
 
 function closeMobileMenu() {
   mobileMenuOpen.value = false;
+}
+
+function reload(){
+  if (router.currentRoute.value.name === 'index') {
+    window.location.reload();
+  } else {
+    router.push({ name: 'index' });
+}
 }
 </script>
 
