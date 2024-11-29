@@ -1,34 +1,46 @@
 {
   "expertiseList": [
     {
+      "id":"1",
       "title": "Kitchen Designer",
       "description": "Designing functional and aesthetically pleasing kitchen spaces, we incorporate modern appliances and  materials while optimizing layout for workflow.",
-      "image": "kitchen.jpg"
+      "image": "kitchen.jpg",
+      "route":"/kitchen"
     },
     {
+      "id":"2",
       "title": "Room Creator",
       "description": "Transforming ordinary spaces into extraordinary rooms, we create tailored designs that blend style and practicality, ensuring maximum space utilization.",
-      "image": "rom.jpg"
+      "image": "rom.jpg",
+      "route":"/room"
     },
     {
+      "id":"3",
       "title": "Interior Designer",
       "description": "Crafting beautiful, cohesive interiors that reflect your personality, we emphasize eco-friendly materials and cutting-edge design trends.",
-      "image": "int.jpg"
+      "image": "int.jpg",
+      "route":"/interior"
     },
     {
+      "id":"4",
       "title": "Product Showcase Studio",
       "description": "Providing innovative spaces for product displays, we combine lighting, layouts, and interactive elements to create an impactful showcase.",
-      "image": "stu.jpg"
+      "image": "stu.jpg",
+      "route":"/studio"
     },
     {
+      "id":"5",
       "title": "Material Planner",
       "description": "Assisting in the selection of cost-effective and sustainable materials, we ensure efficient planning, procurement, and minimal waste.",
-      "image": "pl.jpg"
+      "image": "pl.jpg",
+      "route":"/material"
     },
     {
+      "id":"6",
       "title": "Smart Space Optimizer",
       "description": "Optimizing living and working spaces, we focus on multi-functional designs, smart storage solutions, and cutting-edge automation.",
-      "image": "sm.jpg"
+      "image": "sm.jpg",
+      "route":"/smart"
     }
   ]
 }

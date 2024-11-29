@@ -8,18 +8,18 @@
        </div>
        <div class="flex flex-row justify-around">
            <div class="flex items-center justify-center gap-4 text-center mb-5 px-10 bg-slate-100 shadow-md rounded-md flex-col w-96 h-72">
-              <img src="../assets/tm.jpg" class="w-72 h-54 transition duration-300 rounded-md transform hover:scale-105">
+              <img src="../assets/1q.jpg" class="w-72 h-54 transition duration-300 rounded-md transform hover:scale-105">
               <p class="text-black font-semibold text-lg">Dedicated Team of 3D Artists</p>
            </div>
            
            <div class="flex items-center justify-center gap-4 text-center mb-5 px-10 bg-slate-100 shadow-md rounded-md flex-col w-96 h-72">
               
-               <img src="../assets/qty.jpg" class="w-72 h-48 transition duration-300 rounded-md transform hover:scale-105">
+               <img src="../assets/q6.jpg" class="w-72 h-48 transition duration-300 rounded-md transform hover:scale-105">
                <p class="text-black font-semibold text-lg">In-house Quality Assurance Tool</p>
            </div>
            <div class="flex items-center justify-center gap-4 text-center mb-5 px-10 bg-slate-100 shadow-md rounded-md flex-col w-96 h-72">
               
-               <img src="../assets/sprt.jpg" class="w-68 h-54 transition duration-300 rounded-md transform hover:scale-105">
+               <img src="../assets/vv.jpg" class="w-68 h-48 transition duration-300 rounded-md transform hover:scale-105">
                <p class="text-black font-semibold text-lg"54>24x7 Available Person of Contact</p>
            </div>
            

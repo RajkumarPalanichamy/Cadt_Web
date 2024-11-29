@@ -50,7 +50,7 @@
       </form>
     </div>
     <div class="image-container md:w-1/2 w-full h-full flex justify-center items-center">
-      <img src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover" />
+      <img src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover"/>
     </div>
   </div>
 </template>
@@ -83,9 +83,9 @@ const submitForm = async () => {
     alert('Email sent successfully!');
     
     
-    name.value = '';
-    email.value = '';
-    message.value = '';
+    name.value = ' ';
+    email.value = ' ';
+    message.value = ' ';
   } catch (err) {
     console.error('Error sending email:', err);
     alert('There was an error sending the email.');

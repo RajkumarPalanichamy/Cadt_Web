@@ -1,0 +1,172 @@
+{
+    "kitchenDesigner": {
+      "id":"1",
+      "title": "Kitchen Designer",
+      "description": "Designing functional and aesthetically pleasing kitchen spaces, we incorporate modern appliances and materials while optimizing layout for workflow.",
+      "features": [
+        {
+          "name": "Purpose",
+          "description": "We create kitchens that blend functionality with beauty, ensuring they meet your unique needs and enhance your lifestyle."
+        },
+        {
+          "name": "Materials",
+          "description": "We use high-quality materials like solid countertops, durable cabinetry, and eco-friendly finishes for a sustainable touch."
+        },
+        {
+          "name": "Layout Optimization",
+          "description": "Our designs focus on efficient workflows, maximizing storage, and ensuring every inch of space is utilized effectively."
+        },
+        {
+          "name": "Design Style",
+          "description": "Choose from a range of styles, including modern, minimalist, rustic, or classic, tailored to match your preferences."
+        },
+        {
+          "name": "Inclusions",
+          "description": "Our services include 3D visualizations, lighting plans, and expert material selection to bring your dream kitchen to life."
+        }
+      ],
+      "images": ["../assets/k1.jpg", "../assets/k2.jpg", "../assets/k3.jpg"]
+    },
+    "materialDesigner": {
+      "id":"2",
+      "title": "Material Planner",
+      "description": "Providing expert guidance on selecting and optimizing materials for durable, sustainable, and stylish interior spaces.",
+      "features": [
+        {
+          "name": "Material Expertise",
+          "description": "We recommend high-quality, sustainable materials that match your design aesthetic."
+        },
+        {
+          "name": "Cost Efficiency",
+          "description": "Our expertise helps you balance cost and quality, ensuring maximum value for your budget."
+        },
+        {
+          "name": "Innovative Selection",
+          "description": "Access to the latest trends and cutting-edge materials for unique and lasting designs."
+        },
+        {
+          "name": "Sustainability",
+          "description": "We prioritize eco-friendly options that align with modern sustainability standards."
+        },
+        {
+          "name": "Durability",
+          "description": "Our selections ensure long-lasting materials that withstand the test of time and usage."
+        }
+      ],
+      "images": ["../assets/m1.jpg", "../assets/m2.jpg", "../assets/m3.jpg"]
+    },
+    "interiorDesigner": {
+      "id":"3",
+      "title": "Interior Designer",
+      "description": "Crafting personalized and elegant interiors to enhance your living spaces with functional and aesthetic designs.",
+      "features": [
+        {
+          "name": "Space Planning",
+          "description": "Maximizing the utility and appeal of your living spaces through expert planning."
+        },
+        {
+          "name": "Furniture Selection",
+          "description": "Choosing the perfect furniture pieces to match your design style and functional needs."
+        },
+        {
+          "name": "Lighting Design",
+          "description": "Creating ambiance and functionality with innovative lighting solutions."
+        },
+        {
+          "name": "Color Schemes",
+          "description": "Blending colors harmoniously to reflect your personality and preferences."
+        },
+        {
+          "name": "Accessorizing",
+          "description": "Enhancing interiors with thoughtfully curated decor and accessories."
+        }
+      ],
+      "images": ["../assets/i1.jpg", "../assets/i2.jpg", "../assets/i3.jpg"]
+    },
+    "landscapeDesigner": {
+      "id":"4",
+      "title": "Room Creator",
+     
+      "description": "Transforming outdoor spaces into stunning landscapes that harmonize with nature and functionality.",
+      "features": [
+        {
+          "name": "Garden Design",
+          "description": "Creating vibrant and sustainable gardens tailored to your preferences."
+        },
+        {
+          "name": "Hardscaping",
+          "description": "Incorporating elements like patios, walkways, and retaining walls into your outdoor space."
+        },
+        {
+          "name": "Water Features",
+          "description": "Adding fountains, ponds, or waterfalls to enhance outdoor aesthetics."
+        },
+        {
+          "name": "Plant Selection",
+          "description": "Choosing plants that thrive in your environment and suit your design style."
+        },
+        {
+          "name": "Lighting",
+          "description": "Designing outdoor lighting to highlight key features and ensure safety."
+        }
+      ],
+      "images": ["../assets/l1.jpg", "../assets/l2.jpg", "../assets/l3.jpg"]
+    },
+    "furnitureDesigner": {
+      "id":"5",
+      "title": "Furniture Designer",
+      "description": "Designing custom furniture pieces that blend functionality, comfort, and aesthetic appeal.",
+      "features": [
+        {
+          "name": "Customization",
+          "description": "Tailoring furniture designs to meet your specific needs and space requirements."
+        },
+        {
+          "name": "Material Expertise",
+          "description": "Selecting high-quality materials to ensure durability and style."
+        },
+        {
+          "name": "Ergonomic Design",
+          "description": "Creating furniture that prioritizes comfort and usability."
+        },
+        {
+          "name": "Versatility",
+          "description": "Designing multi-functional furniture to maximize utility."
+        },
+        {
+          "name": "Sustainability",
+          "description": "Using eco-friendly materials and methods to reduce environmental impact."
+        }
+      ],
+      "images": ["../assets/f1.jpg", "../assets/f2.jpg", "../assets/f3.jpg"]
+    },
+    "lightingDesigner": {
+      "id":"6",
+      "title": "Lighting Designer",
+      "description": "Enhancing spaces with innovative and energy-efficient lighting solutions tailored to your needs.",
+      "features": [
+        {
+          "name": "Energy Efficiency",
+          "description": "Providing lighting solutions that save energy and reduce costs."
+        },
+        {
+          "name": "Aesthetic Appeal",
+          "description": "Designing lighting setups that enhance the ambiance of your space."
+        },
+        {
+          "name": "Functional Design",
+          "description": "Ensuring lighting serves practical purposes while complementing your design."
+        },
+        {
+          "name": "Smart Lighting",
+          "description": "Incorporating smart technologies for flexible and convenient control."
+        },
+        {
+          "name": "Outdoor Lighting",
+          "description": "Creating stunning and functional lighting for outdoor spaces."
+        }
+      ],
+      "images": ["../assets/lm1.jpg", "../assets/lm2.jpg", "../assets/lm3.jpg"]
+    }
+  }
+  

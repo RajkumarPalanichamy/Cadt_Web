@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-around py-10 bg-gradient-to-r from-sky-200 via-sky-50 to-white">
+  <div class="flex justify-around py-10 bg-gradient-to-r from-white via-sky-50 to-sky-200">
     <div>
       <h3 class="mt-1 text-3xl font-bold leading-8 tracking-tight text-sky-900 sm:text-5xl pt-6 flex justify-start animate__animated animate__fadeInUp">
         Ready to Elevate Your Digital Experience? <br>

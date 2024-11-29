@@ -136,7 +136,7 @@
         We are a leading international software company with more than 32 years of experience supplying complete software solutions for the interior design and production business, specialized in bespoke furniture.Whether you are a cabinet maker, shopfitter or an exhibition booth builder, individual design requires individual solutions.
       </p>
       <div class="mt-5">
-      <NuxtLink to="/about" class="bg-sky-900 p-2 w-32 px-2 rounded-md text-base text-white">More info</NuxtLink>
+      <NuxtLink to="/about" class="bg-sky-900 p-2 w-32 px-3 rounded-md text-base text-white">More info</NuxtLink>
       </div>
        <!-- <p class="mt-4 text-lg text-gray-700 leading-relaxed">
          We believe in continuous improvement and innovation, which is why we invest in cutting-edge technology and sustainable practices. Our commitment to excellence has earned us a loyal customer base and numerous industry accolades. Join us on our journey as we continue to make a positive impact in our community and beyond.
