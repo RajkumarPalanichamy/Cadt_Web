@@ -32,8 +32,8 @@
           <div class="prose prose-indigo mx-auto mt-4 text-black lg:col-start-1 lg:row-start-1 lg:max-w-none ">
             <p class="pb-2 px-5 md:text-lg ">Our team is dedicated to maintaining the highest standards throughout each stage of the design process, from initial drafts to final revisions.</p> 
             <p class="pb-4  px-5 md:text-lg">At 3D CAD, we are passionate about transforming concepts into reality through advanced 3D CAD design. As a team of dedicated designers and engineers, we bring creativity and precision to every project, aiming to deliver results that are both visually compelling and functionally robust.</p>
-            <NuxtLink :to="'/setup'" class="text-lg font-semibold text-gray-900 hover:text-gray-700 flex justify-start items-center px-5">
-            <button class="p-2 bg-sky-700 text-white rounded-md hover:shadow-md hover:bg-slate-100 hover:font-bold hover:text-sky-900 first-letter:">Check Setup</button> 
+            <NuxtLink :to="'/solution'" class="text-lg font-semibold text-gray-900 hover:text-gray-700 flex justify-start items-center px-5">
+              <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-sky-900 px-4 py-3 text-sm font-medium leading-4 text-white shadow-sm hover:bg-white hover:text-sky-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Check solutions</button>
             </NuxtLink>
           </div>
         </div>

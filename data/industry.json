@@ -1,0 +1,71 @@
+{
+    "industries": [
+      {
+        "title": "Furniture Manufacturing",
+        "image": "fur.jpg",
+        "points": [
+          "Crafting high-quality, durable furniture with innovative designs.\nEmphasizing both functionality and aesthetic appeal.",
+          "Incorporating eco-friendly and sustainable materials for a greener future.\nUtilizing renewable resources and sustainable processes.",
+          "Offering custom-made furniture tailored to client preferences and needs.\nEnsuring a personalized and unique design for each client.",
+          "Utilizing advanced manufacturing techniques, including CNC and 3D printing.\nStreamlining production for precision and efficiency.",
+          "Adapting to market trends such as modular, ergonomic, and space-saving designs.\nMeeting the evolving needs of modern consumers."
+        ]
+      },
+      {
+        "title": "Interior Design and Architecture",
+        "image": "int.jpg",
+        "points": [
+          "Transforming spaces with creative and functional design concepts.\nMaximizing space while maintaining aesthetics.",
+          "Selecting furniture, lighting, and materials to enhance aesthetics.\nFocusing on harmony and style in every room.",
+          "Focusing on eco-conscious and sustainable interior solutions.\nDesigning with the environment in mind.",
+          "Incorporating smart home technologies for modern living spaces.\nBringing technology into everyday life.",
+          "Collaborating with architects and builders for seamless integration.\nCreating cohesive and unified designs."
+        ]
+      },
+      {
+        "title": "Education and Training",
+        "image": "train.jpg",
+        "points": [
+          "Providing industry-specific training for skill development and career growth.\nEquipping individuals with relevant skills for the future.",
+          "Offering hands-on learning experiences with real-world applications.\nEnhancing learning by applying theory to practice.",
+          "Utilizing technology like AR/VR to create immersive training environments.\nMaking learning more interactive and engaging.",
+          "Designing customizable courses for corporate and individual needs.\nPersonalizing learning to suit different needs and goals.",
+          "Partnering with institutions and experts to deliver high-quality education.\nEnsuring the highest standards of learning outcomes."
+        ]
+      },
+      {
+        "title": "Exhibition and Event Design",
+        "image": "exhib.jpg",
+        "points": [
+          "Conceptualizing and designing engaging spaces for trade shows and events.\nCreating memorable and impactful experiences.",
+          "Using cutting-edge technology to enhance audience experiences.\nIncorporating interactive displays and immersive elements.",
+          "Ensuring brand identity is effectively communicated through designs.\nReflecting the essence of the brand in every detail.",
+          "Creating layouts that optimize visitor flow and maximize interaction.\nEncouraging engagement and meaningful connections.",
+          "Providing end-to-end solutions, from planning to execution.\nDelivering a seamless event experience."
+        ]
+      },
+      {
+        "title": "Coworking and Shared Office Spaces",
+        "image": "off.jpg",
+        "points": [
+          "Designing flexible workspaces that foster collaboration and innovation.\nAdapting to diverse work styles and needs.",
+          "Offering ergonomic furniture and modern amenities for productivity.\nEnsuring comfort and efficiency in every workspace.",
+          "Incorporating community-building spaces for networking and events.\nFostering connections and collaboration.",
+          "Providing scalable office solutions for startups and enterprises.\nOffering flexibility to accommodate business growth.",
+          "Emphasizing sustainable and energy-efficient workspace designs.\nPromoting eco-friendly practices in the workplace."
+        ]
+      },
+      {
+        "title": "Luxury Real Estate Development",
+        "image": "lux.jpg",
+        "points": [
+          "Designing and constructing high-end properties with premium materials.\nCreating luxurious spaces that define sophistication.",
+          "Integrating smart home features for luxury and convenience.\nOffering state-of-the-art technologies in every home.",
+          "Focusing on architectural excellence and timeless aesthetics.\nEnsuring that every project stands the test of time.",
+          "Offering bespoke solutions tailored to client lifestyles and preferences.\nCustomizing each property to suit the needs of the homeowner.",
+          "Ensuring sustainability and eco-friendliness in every project.\nBuilding with the environment and future in mind."
+        ]
+      }
+    ]
+  }
+  

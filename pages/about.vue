@@ -1,8 +1,15 @@
 <template>
     <Header/>
     <About/>
+    <Vison/>
+
     <Choose/>
-    
+    <Contact/>
+
+    <Whatsapp/>
+
     <Faq/>
+    <Testmonial/>
+    <Call/>
     <Footer/>
 </template>
