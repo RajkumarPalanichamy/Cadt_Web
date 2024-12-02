@@ -11,7 +11,7 @@
           <input
             type="text"
             id="name"
-            v-model="formData.name"
+            v-model="name"
             required
             class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-sky-500 transition duration-200"
             placeholder="Enter your name"
@@ -22,7 +22,7 @@
           <input
             type="email"
             id="email"
-            v-model="formData.email"
+            v-model="email"
             required
             class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-sky-500 transition duration-200"
             placeholder="Enter your email"
@@ -32,7 +32,7 @@
           <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
           <textarea
             id="message"
-            v-model="formData.message"
+            v-model="message"
             required
             rows="6"
             class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-sky-500 transition duration-200"
@@ -42,54 +42,53 @@
         <div class="text-center">
           <button
             type="submit"
-            class="w-full py-3 bg-sky-600 text-white rounded-lg font-semibold hover:bg-sky-700 transition duration-200 transform hover:scale-105"
+            class="w-full py-3 bg-sky-900 text-white rounded-lg font-semibold hover:bg-sky-900 transition duration-200 transform hover:scale-105"
           >
             Let's Talk
           </button>
         </div>
-        <SwitchGroup as="div" class="flex gap-x-4 sm:col-span-2">
-          <div class="flex h-6 items-center">
-            <Switch v-model="agreed" :class="[agreed ? 'bg-sky-700' : 'bg-gray-200', 'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600']">
-              <span class="sr-only">Agree to policies</span>
-              <span aria-hidden="true" :class="[agreed ? 'translate-x-3.5' : 'translate-x-0', 'h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out']" />
-            </Switch>
-          </div>
-          <SwitchLabel class="text-sm text-gray-600">
-            By selecting this, you agree to our
-            {{ ' ' }}
-            <a href="#" class="font-semibold text-sky-700">privacy&nbsp;policy</a>.
-          </SwitchLabel>
-        </SwitchGroup>
       </form>
     </div>
     <div class="image-container md:w-1/2 w-full h-full flex justify-center items-center">
-      <img  src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover" />
+      <img src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover"/>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
-import { Switch, SwitchGroup, SwitchLabel } from '@headlessui/vue';
 
-const agreed = ref(false);
-const formData = ref({
-  name: '',
-  email: '',
-  message: ''
-});
+const name = ref('');
+const email = ref('');
+const message = ref('');
 
-const submitForm = () => {
-  console.log('Form submitted:', formData.value);
-  // Reset the form
-  formData.value = {
-    name: '',
-    email: '',
-    message: ''
-  };
+const submitForm = async () => {
+  try {
+    const response = await fetch('/api/mail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: name.value,
+        email: email.value,
+        message: message.value
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to send email');
+    }
+
+    alert('Email sent successfully!');
+    
+    
+    name.value = ' ';
+    email.value = ' ';
+    message.value = ' ';
+  } catch (err) {
+    console.error('Error sending email:', err);
+    alert('There was an error sending the email.');
+  }
 };
 </script>
-
-<style scoped>
-/* Optional custom styles can be added here */
-</style>

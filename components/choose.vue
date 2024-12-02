@@ -1,5 +1,5 @@
 <template>
-<div class="bg-white">
+<div class="bg-gradient-to-r from-white via-sky-50 to-sky-200">
 
     <section id="features"
         class="relative block px-6 py-10  md:py-10 md:px-10  border-neutral-900">
@@ -20,7 +20,7 @@
 
 
         <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 py-14 sm:grid-cols-2 lg:grid-cols-3 ">
-            <div class="rounded-md  bg-slate-100 p-8 text-center shadow-md">
+            <div class="rounded-md  bg-white p-8 text-center shadow-md">
                 <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                     >
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-color-swatch" width="24"
@@ -41,7 +41,7 @@
             </div>
 
 
-            <div class="rounded-md  bg-slate-100 p-8 text-center shadow-md">
+            <div class="rounded-md  bg-white p-8 text-center shadow-md">
                 <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                     >
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt" width="24"
@@ -58,7 +58,7 @@
             </div>
 
 
-            <div class="rounded-md  bg-slate-100 p-8 text-center shadow-md">
+            <div class="rounded-md  bg-white p-8 text-center shadow-md">
                 <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                     >
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools" width="24"

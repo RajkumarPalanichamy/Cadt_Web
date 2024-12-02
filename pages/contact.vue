@@ -2,7 +2,7 @@
     <Header/>
     <Bread/>
     <Contact/>
-    <Calendar/>
+    <Whatsapp/>
     <Find/>
     <Footer/>
 </template>
