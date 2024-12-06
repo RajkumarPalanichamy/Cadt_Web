@@ -1,6 +1,7 @@
 <template>
     <Header />
     <Home/>
+    <Smallabout/>
     <Whyhome/>
     <Homeservice/>
     <Testmonial/>

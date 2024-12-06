@@ -2,10 +2,12 @@
     <Header/>
     <About/>
     <Vison/>
+   
     <Choose/>
-    <Contact/>
+    <You/>
     <Whatsapp/>
     <Faq/>
+   
     <Testmonial/>
     <Call/>
     <Footer/>

@@ -1,6 +1,6 @@
 <template>
-  <div class="contact-form-section flex flex-col md:flex-row items-start justify-between mx-auto p-8 bg-white rounded-lg shadow-lg max-w-5xl my-10">
-    <!-- Form Section -->
+  <div class="contact-form-section flex flex-col md:flex-row items-start justify-between mx-auto p-8 bg-white rounded-lg shadow-lg max-w-5xl mt-10">
+
     <div class="contact-form-container w-full md:w-1/2 p-6 flex flex-col">
       <div class="w-full mb-6">
         <h2 class="text-4xl font-bold text-sky-900 mb-2 text-center md:text-left">Let's Discuss Your Project</h2>
@@ -50,7 +50,7 @@
         </div>
       </form>
     </div>
-    <!-- Image Section -->
+    
     <div class="image-container md:w-1/2 w-full h-full flex justify-center items-center">
       <img src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover"/>
     </div>
@@ -105,7 +105,7 @@ const submitForm = async () => {
 
     popup.value = true;
 
-    // Clear form inputs
+  
     name.value = '';
     email.value = '';
     message.value = '';
