@@ -4,6 +4,7 @@ import nodemailer from 'nodemailer';
 export default defineEventHandler(async (event) => {
   
   const { name, email, message } = await readBody(event);
+  console.log("Name", name )
 
   
   const transporter = nodemailer.createTransport({

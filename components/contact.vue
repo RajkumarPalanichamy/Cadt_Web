@@ -1,5 +1,6 @@
 <template>
-  <div class="contact-form-section flex flex-col md:flex-row items-start justify-between mx-auto p-8 bg-white rounded-lg shadow-lg max-w-5xl my-10">
+  <div class="contact-form-section flex flex-col md:flex-row items-start justify-between mx-auto p-8 bg-white rounded-lg shadow-lg max-w-5xl mt-10">
+
     <div class="contact-form-container w-full md:w-1/2 p-6 flex flex-col">
       <div class="w-full mb-6">
         <h2 class="text-4xl font-bold text-sky-900 mb-2 text-center md:text-left">Let's Discuss Your Project</h2>
@@ -49,9 +50,30 @@
         </div>
       </form>
     </div>
+    
     <div class="image-container md:w-1/2 w-full h-full flex justify-center items-center">
       <img src="../assets/op.png" alt="Professional Contact Form" class="w-full h-full rounded-lg shadow-md object-cover"/>
     </div>
+
+
+    <div
+  v-if="popup"
+  class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
+>
+  <div class="bg-white rounded-lg shadow-lg p-4 w-96 h-84 relative">
+    <button
+      @click="closePopup"
+      class="absolute top-2 right-2 text-gray-700 hover:text-gray-900 text-xl font-bold"
+    >
+      &times;
+    </button>
+    <div class="flex flex-col items-center justify-center">
+      <img src="../assets/tw.png" class="w-48 h-48 mb-4" />
+      <h3 class="text-xl font-bold text-sky-900 mb-4 text-center">Response Submitted</h3>
+      <p class="text-gray-700 mb-4 text-center text-md font-semibold">Thank you for your response! We appreciate your  time you took to share with us.</p>
+    </div>
+  </div>
+</div>
   </div>
 </template>
 
@@ -61,34 +83,39 @@ import { ref } from 'vue';
 const name = ref('');
 const email = ref('');
 const message = ref('');
+const popup = ref(false);
 
 const submitForm = async () => {
   try {
     const response = await fetch('/api/mail', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         name: name.value,
         email: email.value,
-        message: message.value
-      })
+        message: message.value,
+      }),
     });
 
     if (!response.ok) {
       throw new Error('Failed to send email');
     }
 
-    alert('Email sent successfully!');
-    
-    
-    name.value = ' ';
-    email.value = ' ';
-    message.value = ' ';
+    popup.value = true;
+
+  
+    name.value = '';
+    email.value = '';
+    message.value = '';
   } catch (err) {
     console.error('Error sending email:', err);
     alert('There was an error sending the email.');
   }
+};
+
+const closePopup = () => {
+  popup.value = false;
 };
 </script>

@@ -1,13 +1,22 @@
 <template>
   <footer class="bg-white" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-7xl px-6 pb-8 pt-4 sm:pt-24 lg:px-8 ">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-        <div class="space-y-8">
-          <img class="h-14 " src="../assets/logo.png" alt="Company logo" />
-          <p class="text-sm leading-6 text-gray-600 pr-8">Making the world a better place through constructing elegant hierarchies.</p>
-          <div class="flex space-x-6">
-            <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 pb-8 pt-4 sm:pt-12 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      
+       
+        <div class="space-y-8 text-center sm:text-left">
+          <img class="h-14 mx-auto sm:mx-0" src="../assets/logo.png" alt="Company logo" />
+          <p class="text-sm leading-6 text-gray-600">
+            Making the world a better place through constructing elegant hierarchies.
+          </p>
+          <div class="flex justify-center sm:justify-start space-x-6">
+            <a
+              v-for="item in navigation.social"
+              :key="item.name"
+              :href="item.href"
+              class="text-gray-400 hover:text-gray-500"
+            >
               <span class="sr-only">{{ item.name }}</span>
               <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
@@ -15,64 +24,53 @@
         </div>
 
        
-        <div class="mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
-         
-          <div class="browser text-center md:text-left">
-            <h1 class="font-bold text-2xl mb-3 text-sky-900">Industries</h1>
-            <ul class="space-y-3">
-              <li><NuxtLink to="/industry">Furniture manufacturing</NuxtLink></li>
-              <li><NuxtLink to="/industry">Interior design</NuxtLink></li>
-              <li><NuxtLink to="/industry">Education & Training</NuxtLink></li>
-              <li><NuxtLink to="/industry">Exhibition & event design</NuxtLink></li>
-              <li><NuxtLink to="/industry">Co-working Spaces</NuxtLink></li>
-           
-            </ul>
-          </div>
+        <div class="space-y-3 px-4">
+          <h3 class="font-bold text-xl sm:text-2xl mb-3 text-sky-900">Industries</h3>
+          <ul class="space-y-3 text-gray-600">
+            <li><NuxtLink to="/industry" class="hover:text-sky-900">Furniture manufacturing</NuxtLink></li>
+            <li><NuxtLink to="/industry" class="hover:text-sky-900">Interior design</NuxtLink></li>
+            <li><NuxtLink to="/industry" class="hover:text-sky-900">Education & Training</NuxtLink></li>
+            <li><NuxtLink to="/industry" class="hover:text-sky-900">Exhibition & event design</NuxtLink></li>
+            <li><NuxtLink to="/industry" class="hover:text-sky-900">Co-working Spaces</NuxtLink></li>
+          </ul>
+        </div>
 
-         
-          <div class="quick text-center md:text-left">
-            <h1 class="font-bold text-2xl mb-3 text-sky-900">Quick Links</h1>
-            <ul class="space-y-3">
-              <li><NuxtLink to="/">Home</NuxtLink></li>
-              <li><NuxtLink to="/about">About Us</NuxtLink></li>
-              <li><NuxtLink to="/industry">Industries</NuxtLink></li>
-              <li><NuxtLink to="/solution">Solutions</NuxtLink></li>
-              <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
-            </ul>
-          </div>
-
-         
-          <div class="flex flex-col  "  >
-            <h1 class="text-4xl font-bold leading-8 tracking-tight text-sky-900 sm:text-2xl mb-6">
-              Find us here
-            </h1>
-            <div class="flex flex-row space-x-6 items-start">
-              <div class="flex flex-col space-y-6">
-                <span class="text-2xl text-sky-900">
-                  <i class="mdi mdi-map-marker"></i>
-                </span>
-                <span class="text-2xl text-sky-900 pt-2">
-                  <i class="mdi mdi-email"></i>
-                </span>
-                <span class="text-2xl text-sky-900">
-                  <i class="mdi mdi-phone"></i>
-                </span>
-              </div>
-              <div class="flex flex-col space-y-6">
-                <p class="w-64">
-                  3rd Floor, SPAN Ventures SEZ, Block A2, Eachanari, Tamil Nadu 641021
-                </p>
-                <p>info@example.com</p>
-                <p>(123) 456-7890</p>
-              </div>
+       
+        <div class="space-y-3 px-4">
+          <h3 class="font-bold text-xl sm:text-2xl mb-3 text-sky-900">Quick Links</h3>
+          <ul class="space-y-3 text-gray-600">
+            <li><NuxtLink to="/" class="hover:text-sky-900">Home</NuxtLink></li>
+            <li><NuxtLink to="/about" class="hover:text-sky-900">About Us</NuxtLink></li>
+            <li><NuxtLink to="/industry" class="hover:text-sky-900">Industries</NuxtLink></li>
+            <li><NuxtLink to="/solution" class="hover:text-sky-900">Solutions</NuxtLink></li>
+            <li><NuxtLink to="/contact" class="hover:text-sky-900">Contact Us</NuxtLink></li>
+          </ul>
+        </div>
+        <div class="flex flex-col px-4  lg:items-start space-y-6">
+          <h1 class="text-xl font-bold leading-8 tracking-tight text-sky-900 sm:text-2xl">
+            Find us here
+          </h1>
+          <div class="flex flex-row items-start space-x-4 sm:space-x-6">
+            <div class="flex flex-col space-y-7 sm:space-y-8 items-center lg:items-start">
+              <span class="text-2xl text-sky-900">
+                <i class="mdi mdi-map-marker"></i>
+              </span>
+              <span class="text-2xl text-sky-900">
+                <i class="mdi mdi-email"></i>
+              </span>
+              <span class="text-2xl text-sky-900">
+                <i class="mdi mdi-phone"></i>
+              </span>
+            </div>
+            <div class="flex flex-col space-y-4 sm:space-y-5 lg:text-left">
+              <p class="sm:w-64 text-gray-600">
+                3rd Floor, SPAN Ventures SEZ, Eachanari, Tamil Nadu 641021
+              </p>
+              <p class="text-gray-600">info@example.com</p>
+              <p class="text-gray-600 pt-4">(123) 456-7890</p>
             </div>
           </div>
         </div>
-      </div>
-
-      
-      <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-        <p class="text-xs leading-5 text-gray-500">&copy; 2020 Your Company, Inc. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -92,7 +90,7 @@ const navigation = {
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
             h('path', {
               'fill-rule': 'evenodd',
-              d: 'M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z',
+              d: 'M22 12c0-.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z',
               'clip-rule': 'evenodd',
             }),
           ]),
@@ -156,6 +154,3 @@ const navigation = {
 }
 </script>
 
-<style scoped>
-
-</style>

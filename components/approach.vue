@@ -1,7 +1,7 @@
 <template>
   <div class="font-poppins  w-full mx-auto p-4">
     <h3 
-      class="font-poppins  mt-2 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight bg-gradient-to-r from-teal-700 to-blue-500 inline-block text-transparent bg-clip-text sm:text-4xl pb-10"
+      class="font-poppins  mt-6 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight bg-sky-900 text-transparent bg-clip-text sm:text-4xl pb-10"
     >
       Services We're Offering
     </h3>
@@ -19,7 +19,6 @@
             class="w-full h-full object-cover rounded-full hover:shadow-xl border border-sky-900"
           />
         </div>
-
         <div class="p-4">
           <h3 class="text-xl font-poppins font-bold text-black text-center">{{ item.title }}</h3>
         </div>

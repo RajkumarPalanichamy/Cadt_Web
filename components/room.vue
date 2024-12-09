@@ -6,13 +6,13 @@
           <div>
             <div class="border-b border-gray-200 pb-10">
               <h2 class="font-medium text-md text-gray-500">Whimsical </h2>
-              <p class="mt-2 text-5xl font-bold tracking-tight text-sky-900 sm:text-4xl">BOLD MINIMALISM</p>
+              <p class="mt-2 text-3xl font-bold tracking-tight text-sky-900 sm:text-4xl">BOLD MINIMALISM</p>
             </div>
             
             <dl class="mt-10 space-y-8">
               <div v-for="feature in roomCreator.features" :key="feature.name">
-                <dt class="text-xl font-semibold text-gray-900">{{ feature.name }}</dt>
-                <dd class="mt-3 text-lg text-gray-500">{{ feature.description }}</dd>
+                <dt class="text-lg sm:text-xl font-semibold text-gray-900">{{ feature.name }}</dt>
+                <dd class="mt-3 text-md sm:text-lg text-gray-500">{{ feature.description }}</dd>
               </div>
             </dl>
           </div>
