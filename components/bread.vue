@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex flex-col h-96 w-full items-center justify-center bg-cover bg-no-repeat mt-7"
+    class="flex flex-col h-[600px] w-full items-center justify-center bg-cover bg-no-repeat mt-7"
     aria-label="Breadcrumb"
     style="background-image: url('brg.jpg');"
   >
@@ -37,7 +37,7 @@
       </li>
     </ol>
   </nav>
-  <div class="h-36 bg-slate-100"></div>
+  <!-- <div class="h-36 bg-slate-100"></div> -->
 </template>
 
 <script setup>

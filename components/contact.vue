@@ -1,6 +1,10 @@
 <template>
+  <h3 
+      class="font-poppins  mt-4 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight bg-sky-900 text-transparent bg-clip-text sm:text-4xl pb-10"
+    >
+      Your Queries, Our Priority
+    </h3>
   <div class="contact-form-section flex flex-col md:flex-row items-start justify-between mx-auto p-8 bg-white rounded-lg shadow-lg max-w-5xl mt-10">
-
     <div class="contact-form-container w-full md:w-1/2 p-6 flex flex-col">
       <div class="w-full mb-6">
         <h2 class="text-4xl font-bold text-sky-900 mb-2 text-center md:text-left">Let's Discuss Your Project</h2>

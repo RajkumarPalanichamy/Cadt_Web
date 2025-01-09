@@ -15,6 +15,7 @@
     "@mdi/font": "^7.4.47",
     "@mdi/js": "^7.4.47",
     "@nuxtjs/dotenv": "^1.4.2",
+    "@nuxtjs/robots": "^5.0.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@tresjs/cientos": "^4.0.3",
     "@tresjs/core": "^4.3.1",
@@ -24,6 +25,7 @@
     "nodemailer": "^6.9.16",
     "nuxt": "^3.13.2",
     "nuxt-mdi": "^2.1.1",
+    "nuxt-schema-org": "^4.0.4",
     "three": "^0.170.0",
     "vue": "latest",
     "vue-router": "latest"

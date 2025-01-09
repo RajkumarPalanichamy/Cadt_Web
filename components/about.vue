@@ -2,7 +2,7 @@
   <div class="overflow-hidden my-3  py-7 bg-cover bg-no-repeat bg-center bg-gradient-to-r from-white via-sky-50 to-sky-200 ..." >
     <div class="relative mx-auto max-w-7xl py-8 px-4 lg:px-8">
       <div class="absolute top-0  left-2/4 hidden w-screen lg:block" />
-      <div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-6">
+      <div class="mx-auto mt-12 max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-6">
         <div>
           <h3 class="mt-1 text-4xl font-bold leading-8 tracking-tight text-sky-900 sm:text-3xl pt-6 px-5">About Our 3D CAD</h3>
         </div>

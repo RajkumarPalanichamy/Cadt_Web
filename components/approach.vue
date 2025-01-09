@@ -1,7 +1,7 @@
 <template>
   <div class="font-poppins  w-full mx-auto p-4">
     <h3 
-      class="font-poppins  mt-6 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight bg-sky-900 text-transparent bg-clip-text sm:text-4xl pb-10"
+      class="font-poppins  mt-4 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight bg-sky-900 text-transparent bg-clip-text sm:text-4xl pb-10"
     >
       Services We're Offering
     </h3>
