@@ -1,11 +1,11 @@
 <template>
-  <section>
-    <h3 
-      class="  mt-6 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight text-sky-900 text-transparent bg-clip-text sm:text-4xl pb-10"
+  <h3 
+      class="font-poppins  mt-4 text-3xl font-bold flex justify-center items-center leading-8 tracking-tight bg-sky-900 text-transparent bg-clip-text sm:text-4xl pb-10"
     >
       Industries We Serve
     </h3>
-    <div class="space-y-16 mt-7">
+    <section>
+    <div class="space-y-16 mt-7">0
       <div
         v-for="(industry, index) in industries"
         :key="index"
